@@ -1,11 +1,304 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap" rel="stylesheet">
+    <title>Netflix India - Watch tv shows online, Watch movies online</title>
+    <link rel="stylesheet" href="assets/main.css">
 </head>
+
 <body>
-    doo bee doo bee doo baa
+    <div class="main-container bg-black font-netflix-sans">
+        <div
+            class="landing overflow-hidden relative bg-landingBackground object-cover bg-contain md:bg-cover bg-no-repeat bg-center h-3/4 md:min-h-[70vh]">
+            <!-- Background Gradient -->
+            <div
+                class="absolute inset-0 pointer-events-none bg-gradient-to-t from-[rgba(0,0,0,0.8)] via-[rgba(0,0,0,0.6)] to-[rgba(0,0,0,0.8)] md:via-[rgba(0, 0, 0, 0) 60%] opacity-70">
+            </div>
+
+            <div class="relative header py-6 mx-4 md:mx-auto">
+                <div class="header-content flex justify-between md:w-2/3 mx-auto">
+                    <div class="logo w-24 md:w-36">
+                        <!-- Your SVG logo here -->
+                        <a href="/">
+                            <svg viewBox="0 0 111 30" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                class="default-ltr-cache-1d568uk ev1dnif1 text-brightRed fill-brightRed">
+                                <g>
+                                    <path
+                                        d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="right text-white flex font-bold">
+                        <div class="lang">
+                            <button class="border border-white px-3 md:px-6 py-1 rounded-sm">English</button>
+                        </div>
+                        <div class="signin mx-4">
+                            <a href="signIn.html">
+                                <button class="bg-brightRed px-3 md:px-4 py-1 border border-brightRed rounded-sm">Sign
+                                    In</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="landing-content text-white text-center w-11/12 ms:w-4/5 mx-auto my-8 lg:my-32 relative">
+                <h1 class="text-4xl md:text-5xl font-extrabold">Enjoy big movies, hit series and more from ₹ 149.</h1>
+                <h2 class="text-xl md:text-2xl my-6">Join today. Cancel anytime.</h2>
+                <h2 class="text-lg md:text-xl my-6">Ready to watch? Enter your email to create or restart your
+                    membership.</h2>
+                <form action="" class="flex items-center justify-center flex-col md:flex-row">
+                    <input type="email" name="" id="" placeholder="Email address"
+                        class="border border-white bg-[rgba(22,22,22,0.7)] text-lg w-11/12 md:w-2/6 py-3 px-3 md:py-4 md:px-6 rounded-md">
+                    <button type="submit"
+                        class="border border-brightRed my-4 md:my-0 px-6 py-3 mx-2 bg-brightRed font-bold text-lg md:text-2xl rounded-md">Get
+                        Started
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            data-mirrorinrtl="true" class="inline" data-name="ChevronRight" aria-hidden="true">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="h-2 bg-[rgb(35,35,35)]"></div>
+
+        <div class="landing-sections text-white">
+            <!-- card -->
+            <div
+                class="flex flex-col lg:flex-row justify-center items-center text-center lg:text-left w-11/12 lg:w-3/5 my-12 mx-auto">
+                <div class="lg:w-1/2">
+                    <h1 class="font-bold text-[2rem] leading-9 md:font-bold md:text-4xl lg:text-5xl">Enjoy on your TV
+                    </h1>
+                    <p class="text-lg md:text-xl my-9">Watch on smart TVs, PlayStation, Xbox, Chromecast,
+                        Apple TV, Blu-ray players
+                        and more.</p>
+                </div>
+                <div class="relative lg:w-1/2 flex items-start">
+                    <img src="assets/images/landing-sec-1.png" alt="" class="relative z-10">
+                    <video src="assets/images/landing-sec-1.m4v" class="absolute w-[100%]" autoplay loop></video>
+                </div>
+            </div>
+            <div class="h-2 bg-[rgb(35,35,35)]"></div>
+            <!-- card 2 -->
+            <div
+                class="flex flex-col-reverse lg:flex-row justify-center items-center text-center lg:text-left w-11/12 lg:w-3/5 my-12 mx-auto">
+                <div class="lg:w-1/2">
+                    <img src="assets/images/landing-sec-2.jpg" alt="">
+                </div>
+                <div class="lg:w-1/2">
+                    <h1 class="font-bold text-[2rem] leading-9 md:font-bold md:text-4xl lg:text-5xl">Download your shows
+                        to watch offline</h1>
+                    <p class="text-lg md:text-xl my-9">Save your favourites easily and always have
+                        something to watch.</p>
+                </div>
+            </div>
+            <div class="h-2 bg-[rgb(35,35,35)]"></div>
+            <!-- card 3 -->
+            <div
+                class="flex flex-col lg:flex-row justify-center items-center text-center lg:text-left w-11/12 lg:w-3/5 my-12 mx-auto">
+                <div class="lg:w-1/2">
+                    <h1 class="font-bold text-[2rem] leading-9 md:font-bold md:text-4xl lg:text-5xl">Watch everywhere
+                    </h1>
+                    <p class="text-lg md:text-xl my-9">Stream unlimited movies and TV shows on your phone,
+                        tablet, laptop, and TV.</p>
+                </div>
+                <div class="lg:w-1/2 relative">
+                    <img src="assets/images/landing-sec-3.png" class="relative z-10" alt="">
+                    <video src="assets/images/landing-sec-3.m4v" class="absolute top-10 right-10 left-20 w-[65%]"
+                        autoplay loop></video>
+                </div>
+            </div>
+            <div class="h-2 bg-[rgb(35,35,35)]"></div>
+            <!-- card 4 -->
+            <div
+                class="flex flex-col-reverse lg:flex-row justify-center items-center text-center lg:text-left w-11/12 lg:w-3/5 my-12 mx-auto">
+                <div class="lg:w-1/2">
+                    <img src="assets/images/landing-sec-4.png" alt="">
+                </div>
+                <div class="lg:w-1/2">
+                    <h1 class="font-bold text-[2rem] leading-9 md:font-bold md:text-4xl lg:text-5xl">Create profiles for
+                        kids</h1>
+                    <p class="text-lg md:text-xl my-9">Send children on adventures with their favourite
+                        characters in a space made just for them—free with your membership.</p>
+                </div>
+            </div>
+            <div class="h-2 bg-[rgb(35,35,35)]"></div>
+        </div>
+
+        <div class="text-white text-center p-4 py-14 md:p-8 lg:p-12 lg:py-20">
+            <h1 class="text-3xl lg:text-5xl font-bold w-10/12 mx-auto leading-10">Frequently Asked Questions</h1>
+            <div>
+                <ul class="my-8 mx-2 lg:container md:mx-0 lg:mx-auto transition-all duration-300 ease-linear">
+                    <!-- FAQ li-1 -->
+                    <li class="my-2 bg-bgGray lg:w-4/5 cursor-pointer group lg:mx-auto dropdown">
+                        <button
+                            class="px-4 py-4 q-box flex w-full items-center justify-between text-lg hover:bg-hoverGray md:py-5 lg:py-6 lg:text-2xl">
+                            <h2>What is Netflix?</h2>
+                            <h2 class="text-2xl">+</h2>
+                        </button>
+                        <div class="px-4 py-4 text-left text-lg border-t-2 border-black md:p-6 lg:text-2xl hidden">
+                            <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows,
+                                movies, anime, documentaries and more – on thousands of internet-connected
+                                devices.<br><br> You can watch as much as you want, whenever you want, without a single
+                                ad – all for one low monthly price. There's always something new to discover, and new TV
+                                shows and movies are added every week!</p>
+                        </div>
+                    </li>
+                    <!-- FAQ li-2 -->
+                    <li class="my-2.5 bg-bgGray lg:w-4/5 cursor-pointer group lg:mx-auto dropdown">
+                        <button
+                            class="px-4 py-4 q-box flex w-full items-center justify-between text-lg hover:bg-hoverGray md:py-5 lg:py-6 lg:text-2xl">
+                            <h2>How much does Netflix cost?</h2>
+                            <h2 class="text-2xl">+</h2>
+                        </button>
+                        <div class="px-4 py-4 text-left text-lg border-t-2 border-black md:p-6  lg:text-2xl hidden">
+                            <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for
+                                one fixed monthly fee. Plans range from ₹ 149 to ₹ 649 a month. No extra costs, no
+                                contracts.</p>
+                        </div>
+                    </li>
+                    <!-- FAQ li-3 -->
+                    <li class="my-2.5 bg-bgGray lg:w-4/5 cursor-pointer group lg:mx-auto dropdown">
+                        <button
+                            class="px-4 py-4 q-box flex w-full items-center justify-between text-lg hover:bg-hoverGray md:py-5 lg:py-6 lg:text-2xl">
+                            <h2>Where can I watch?</h2>
+                            <h2 class="text-2xl">+</h2>
+                        </button>
+                        <div class="px-4 py-4 text-left text-lg border-t-2 border-black md:p-6  lg:text-2xl hidden">
+                            <p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web
+                                at netflix.com from your personal computer or on any internet-connected device that
+                                offers the Netflix app, including smart TVs, smartphones, tablets, streaming media
+                                players and game consoles.
+                                <br> <br>
+                                You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use
+                                downloads to watch while you're on the go and without an internet connection. Take
+                                Netflix with you anywhere.
+                            </p>
+                        </div>
+                    </li>
+                    <!-- FAQ li-4 -->
+                    <li class="my-2.5 bg-bgGray lg:w-4/5 cursor-pointer group lg:mx-auto dropdown">
+                        <button
+                            class="px-4 py-4 q-box flex w-full items-center justify-between text-lg hover:bg-hoverGray md:py-5 lg:py-6 lg:text-2xl">
+                            <h2>How do I cancel?</h2>
+                            <h2 class="text-2xl">+</h2>
+                        </button>
+                        <div class="px-4 py-4 text-left text-lg border-t-2 border-black md:p-6  lg:text-2xl hidden">
+                            <p>Netflix is flexible. There are no annoying contracts and no commitments. You can easily
+                                cancel your account online in two clicks. There are no cancellation fees – start or stop
+                                your account anytime.</p>
+                        </div>
+                    </li>
+                    <!-- FAQ li-5 -->
+                    <li class="my-2.5 bg-bgGray lg:w-4/5 cursor-pointer group lg:mx-auto dropdown">
+                        <button
+                            class="px-4 py-4 q-box flex w-full items-center justify-between text-lg hover:bg-hoverGray md:py-5 lg:py-6 lg:text-2xl">
+                            <h2>What can I watch on Netflix?</h2>
+                            <h2 class="text-2xl">+</h2>
+                        </button>
+                        <div class="px-4 py-4 text-left text-lg border-t-2 border-black md:p-6  lg:text-2xl hidden">
+                            <p>Netflix has an extensive library of feature films, documentaries, TV shows, anime,
+                                award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                            </p>
+                        </div>
+                    </li>
+                    <!-- FAQ li-6 -->
+                    <li class="my-2.5 bg-bgGray lg:w-4/5 cursor-pointer group lg:mx-auto dropdown">
+                        <button
+                            class="px-4 py-4 q-box flex w-full items-center justify-between text-lg hover:bg-hoverGray md:py-5 lg:py-6 lg:text-2xl">
+                            <h2>Is Netflix good for kids?</h2>
+                            <h2 class="text-2xl">+</h2>
+                        </button>
+                        <div class="px-4 py-4 text-left text-lg border-t-2 border-black md:p-6  lg:text-2xl hidden">
+                            <p>The Netflix Kids experience is included in your membership to give parents control while
+                                kids enjoy family-friendly TV shows and films in their own space.<br><br>
+                                Kids profiles come with PIN-protected parental controls that let you restrict the
+                                maturity rating of content kids can watch and block specific titles you don’t want kids
+                                to see.</p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="w-11/12 mx-auto mt-11">
+                    <h2 class="text-lg lg:text-xl my-6">Ready to watch? Enter your email to create or restart your
+                        membership.</h2>
+                    <form action="" class="flex w-full items-center justify-center flex-col md:flex-row">
+                        <input type="email" name="" id="" placeholder="Email address"
+                            class="border border-hoverGray bg-[rgba(22,22,22,0.7)] text-lg w-11/12 md:w-4/6 lg:w-3/12 py-3 px-3 md:py-4 md:px-6 rounded-md">
+                        <button type="submit"
+                            class="border border-brightRed my-4 md:my-0 px-6 py-3 mx-2 bg-brightRed md:py-4 font-bold text-lg md:text-xl rounded-md">Get
+                            Started
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" data-mirrorinrtl="true" class="inline"
+                                data-name="ChevronRight" aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="h-2 bg-[rgb(35,35,35)]"></div>
+
+        <footer class="text-slate-100 container mx-auto p-16">
+            <div class="w-5/6 mx-auto">
+                <h3>Questions? Call <a class="underline">000-800-919-1694</a></h3>
+                <div class="footer-links flex justify-between my-3">
+                    <ul class="text-sm">
+                        <li class="underline my-4"><a href="#">FAQ</a></li>
+                        <li class="underline my-4"><a href="#">Investor Relation</a></li>
+                        <li class="underline my-4"><a href="#">Privacy</a></li>
+                        <li class="underline my-4"><a href="#">Speed Test</a></li>
+                    </ul>
+                    <ul class="text-sm">
+                        <li class="underline my-4"><a href="#">Help Centre</a></li>
+                        <li class="underline my-4"><a href="#">Jobs</a></li>
+                        <li class="underline my-4"><a href="#">Cookie Prefrences</a></li>
+                        <li class="underline my-4"><a href="#">Legal Notices</a></li>
+                    </ul>
+                    <ul class="text-sm">
+                        <li class="underline my-4"><a href="#">Account</a></li>
+                        <li class="underline my-4"><a href="#">Ways to Watch</a></li>
+                        <li class="underline my-4"><a href="#">Corporate Informatino</a></li>
+                        <li class="underline my-4"><a href="#">Only on Netflix</a></li>
+                    </ul>
+                    <ul class="text-sm">
+                        <li class="underline my-4"><a href="#">Media Centre</a></li>
+                        <li class="underline my-4"><a href="#">Terms of Use</a></li>
+                        <li class="underline my-4"><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="my-4"><a href="#">Netflix India</a></div>
+            </div>
+        </footer>
+    </div>
+
 </body>
+
+<script>
+    const buttons = document.querySelectorAll('.dropdown button');
+
+    buttons.forEach((button) => {
+        button.addEventListener('click', function () {
+            const secondDiv = this.nextElementSibling;
+            secondDiv.classList.toggle('hidden');
+        });
+    });
+
+</script>
+
 </html>
