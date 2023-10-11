@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap" rel="stylesheet">
+    <title>Netflix</title>
+    <hr>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .square {
+          height: 60px;
+          width: 80px;
+          background-color: #555;
+        }
+        </style>
+</head>
+
+<body>
+    
+    <div class="main-container relative bg-black px-4 md:px-0 md:bg-landingBackground bg-no-repeat bg-cover font-netflix-sans md:bg-cover bg-center h-3/4 min-h-[100vh]">
+        <div
+            class="landing relative overflow-hidden">
+            <!-- Background Gradient -->
+            <div
+                class="absolute inset-0 pointer-events-none bg-gradient-to-t from-[rgba(0,0,0,0.8)] via-[rgba(0,0,0,0.6)] to-[rgba(0,0,0,0.8)] md:via-[rgba(0, 0, 0, 0) 60%] opacity-70">
+            </div>
+
+            <div class=" relative header py-6 mx-4 md:mx-auto">
+                <div class="header-content flex justify-between md:w-5/6 mx-auto">
+                    <div class="logo w-24 md:w-44">
+                        <!-- Your SVG logo here -->
+                        <a href="/">
+                            <svg viewBox="0 0 111 30" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img"
+                                class="default-ltr-cache-1d568uk ev1dnif1 text-brightRed fill-brightRed">
+                                <g>
+                                    <path
+                                        d="M105.06233,14.2806261 L110.999156,30 C109.249227,29.7497422 107.500234,29.4366857 105.718437,29.1554972 L102.374168,20.4686475 L98.9371075,28.4375293 C97.2499766,28.1563408 95.5928391,28.061674 93.9057081,27.8432843 L99.9372012,14.0931671 L94.4680851,-5.68434189e-14 L99.5313525,-5.68434189e-14 L102.593495,7.87421502 L105.874965,-5.68434189e-14 L110.999156,-5.68434189e-14 L105.06233,14.2806261 Z M90.4686475,-5.68434189e-14 L85.8749649,-5.68434189e-14 L85.8749649,27.2499766 C87.3746368,27.3437061 88.9371075,27.4055675 90.4686475,27.5930265 L90.4686475,-5.68434189e-14 Z M81.9055207,26.93692 C77.7186241,26.6557316 73.5307901,26.4064111 69.250164,26.3117443 L69.250164,-5.68434189e-14 L73.9366389,-5.68434189e-14 L73.9366389,21.8745899 C76.6248008,21.9373887 79.3120255,22.1557784 81.9055207,22.2804387 L81.9055207,26.93692 Z M64.2496954,10.6561065 L64.2496954,15.3435186 L57.8442216,15.3435186 L57.8442216,25.9996251 L53.2186709,25.9996251 L53.2186709,-5.68434189e-14 L66.3436123,-5.68434189e-14 L66.3436123,4.68741213 L57.8442216,4.68741213 L57.8442216,10.6561065 L64.2496954,10.6561065 Z M45.3435186,4.68741213 L45.3435186,26.2498828 C43.7810479,26.2498828 42.1876465,26.2498828 40.6561065,26.3117443 L40.6561065,4.68741213 L35.8121661,4.68741213 L35.8121661,-5.68434189e-14 L50.2183897,-5.68434189e-14 L50.2183897,4.68741213 L45.3435186,4.68741213 Z M30.749836,15.5928391 C28.687787,15.5928391 26.2498828,15.5928391 24.4999531,15.6875059 L24.4999531,22.6562939 C27.2499766,22.4678976 30,22.2495079 32.7809542,22.1557784 L32.7809542,26.6557316 L19.812541,27.6876933 L19.812541,-5.68434189e-14 L32.7809542,-5.68434189e-14 L32.7809542,4.68741213 L24.4999531,4.68741213 L24.4999531,10.9991564 C26.3126816,10.9991564 29.0936358,10.9054269 30.749836,10.9054269 L30.749836,15.5928391 Z M4.78114163,12.9684132 L4.78114163,29.3429562 C3.09401069,29.5313525 1.59340144,29.7497422 0,30 L0,-5.68434189e-14 L4.4690224,-5.68434189e-14 L10.562377,17.0315868 L10.562377,-5.68434189e-14 L15.2497891,-5.68434189e-14 L15.2497891,28.061674 C13.5935889,28.3437998 11.906458,28.4375293 10.1246602,28.6868498 L4.78114163,12.9684132 Z">
+                                    </path>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="landing-content text-white md:w-11/12 ms:w-4/5 mx-auto my-8 lg:my-32 relative z-10">
+                <div class="mx-auto bg-[rgba(0,0,0,0.75)] md:p-16 rounded-md max-w-[450px] md:mb-32">
+                    <hr>
+                    <h4 class="text-left text-4xl">Step 1 of 3</h1>
+                    
+                        <form action="" class="flex flex-col my-6">
+                        <h2>Choose a plan that's right for you.</h2>
+                        
+                        <span>&#10003; Watch all you want. Ad-free.</span>
+                        <br>
+                        <span>&#10003; Reccomendations just for you.</span>
+                        <br>
+                        <span>&#10003; Change or cancel your plan anytime.</span>
+                        <br>
+                        <br>
+                        <div class="square"> <div class="icon1">
+                            <p>Mobile</p>
+                         </div></div>
+                        <br>
+                    
+                        <div class="square"><div class="icon1">
+                            <p>Basic</p>
+                         </div></div>
+                        <br>
+                        <div class="square"><div class="icon1">
+                            <p>Standard</p>
+                         </div></div>
+                        <br>
+                        <div class="square"><div class="icon1">
+                            <p>Premium</p>
+                         </div></div>
+                    <h5> Monthly price</h5>
+                    <div class="inr-code">
+                        <p>₹ 149</p>
+                        <p>₹ 199</p>
+                        <p>₹ 449</p>
+                        <p>₹ 649</p>
+                    <hr>
+                    </div>
+                    <h5> Video quality</h5>
+                    <div class="inr-code">
+                        <p> Good</p>
+                        <p> Good</p>
+                        <p> Better</p>
+                        <p> Best</p>
+                    <hr>
+                    </div>
+                    <h5> Resolution</h5>
+                    <div class="inr-code">
+                        <p> 480p</p>
+                        <p> 480p</p>
+                        <p> 1080p</p>
+                        <p> 4K + HDR</p>
+                        
+                        
+                    <hr>
+                    </div>  
+                    <h5> Devices you can use to watch</h5>
+                    <div class="icons">
+                        <i class="fa fa-mobile-phone" style="font-size:40px"></i>
+                        <br>
+                        <p> Phone</p>
+                        <i class="fa fa-tablet" aria-hidden="true" style="font-size:40px"></i>
+                        <br>
+                        <p> Tablet </p>
+                        <i class="fa fa-desktop" aria-hidden="true" style="font-size:40px"></i>
+                        <br>
+                        <p> Desktop </p>
+                        <i class="fa fa-television" aria-hidden="true" style="font-size:40px"></i>
+
+                        <br>
+                        <p> TV </p>
+                    </div>
+
+                  
+                </div>
+            </div>
+
+           
+        </div>
+
+    </div>
+
+</body>
+
+</html>
